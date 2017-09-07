@@ -1,0 +1,15 @@
+body {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+#my-header, h1 {
+	color: #FF0000;
+}
+.my-list-item {
+	font-size: 22px;
+}
+.my-list-item a {
+	color: #00AA00;
+}
+.my-list-item a:hover {
+	color: #0000FF;
+}

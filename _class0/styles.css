@@ -1,0 +1,36 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+	color: #FF0000;
+}
+
+#class-container {
+	background: #EAEAEA;
+	padding: 5px 15px;
+}
+
+#class-list {
+	list-style: none;
+	padding: 0;
+}
+
+#class-list li {
+	height: 25px;
+	padding: 5px 15px;
+	border: 1px solid black;
+	display: inline-block;
+	vertical-align: center;
+}
+
+.class-link {
+	font-weight: 700;
+	text-decoration: none;
+}
+.class-link:visited {
+	color: blue;
+}
+.class-link:hover {
+	color: red;
+}
