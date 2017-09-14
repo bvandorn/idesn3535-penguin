@@ -1,15 +1,42 @@
 body {
 	font-family: 'Gloria Hallelujah', cursive;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background: #00b5ff;
 }
 #my-header, h1 {
-	color: #FF0000;
+	color: #FFF;
+	width: 100%;
+	background: #1ea753;
+	padding: 8px 15px;
+	margin: 0;
+}
+ol {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style: none;
+	padding: 10px 40px;
 }
 .my-list-item {
 	font-size: 22px;
+	width: 30%;
+	border: 3px solid #CCC;
+	padding: 10px;
+	background: #235a71;
+	color: #FFF;
 }
 .my-list-item a {
-	color: #00AA00;
+	color: #FFF;
+	display: block;
+	padding-left: 25px;
+}
+.my-list-item a:first-child {
+	color: #FFF;
+	display: block;
+	padding-left: 0;
 }
 .my-list-item a:hover {
-	color: #0000FF;
+	color: #FFF;
 }
