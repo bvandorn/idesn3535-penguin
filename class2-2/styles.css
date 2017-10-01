@@ -1,0 +1,194 @@
+html {
+	box-sizing: border-box;
+}
+* {
+	box-sizing: border-box;
+}
+header {
+	height: 44px;
+	background: #000;
+}
+header a {
+	color: #FFF;
+	font-size: 18px;
+	float: left;
+	margin: 10px;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+.section {
+	padding: 10px;
+	color: #FFF;
+}
+#section1 {
+	background: #F00;
+}
+#section2 {
+	background: #FF0;
+	color: #000;
+}
+#section3 {
+	background: #00F;
+}
+#sidebar {
+	background: #0FF;
+	color: #000;
+}
+body {
+	background: #FAFAFA;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+#header {
+	width: 100%;
+	background: #448800;
+	height: 44px;
+}
+
+#score-bar {
+	width: 100%;
+	background: #FF8888;
+	height: 70px;
+	overflow-x: auto;
+}
+
+#score-scroller {
+	width: auto;
+	height: 100%;
+	width: 1490px;
+}
+
+.big-score {
+	width: 200px;
+	height: 100%;
+	float: left;
+	background: #2233FF;
+	border-right: 1px solid black;
+}
+
+.divider {
+	width: 40px;
+	height: 100%;
+	float: left;
+	background: #FF00AA;
+	border-right: 1px solid black;
+}
+
+#main-window {
+	background: #BBB;
+	min-height: 200px;
+	display: flex;
+	margin: auto;
+	width: 900px;
+	max-width: 100%;
+	padding: 10px 40px;
+	justify-content: space-between;
+}
+
+#main-column {
+	width: 65%;
+	min-height: 300px;
+	background: #FF00AA;
+	padding-bottom: 20px;
+}
+
+#right-sidebar {
+	width: 30%;
+	min-height: 200px;
+	background: #00AAFF;
+}
+
+#main-image {
+	width: 100%;
+	height: 200px;
+	background: #0F55AA;
+}
+
+.main-text {
+	width: 100%;
+	height: 60px;
+	background: #33FFFF;
+	margin-top: 20px;
+}
+
+.padder {
+	padding: 0 10px;
+}
+
+#main-caption {
+	background: #00FF22;
+}
+
+.sub-article {
+	width: 100%;
+	height: 120px;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 30% 1fr;
+	grid-column-gap: 10px;
+}
+
+.sub-image {
+	height: 100%;
+	background: #AAFF33;
+	display: inline;
+}
+
+.sub-text {
+	height: 100%;
+	background: #997733;
+	display: inline;
+}
+
+.general-box {
+	height: 200px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#top-scores {
+	background: #009988;
+}
+
+#favorites {
+	background: #88FFFF;
+}
+
+#play {
+	background: #229900;
+}
+
+
+@media(max-width: 900px) {
+	#main-window {
+		display: block;
+		padding: 20px 30px;
+	}
+
+	#main-column {
+		width: 100%;
+	}
+
+	#right-sidebar {
+		width: 100%;
+	}
+}
+@media(max-width: 600px) {
+	#main-window {
+		padding: 10px 0;
+		padding-top: 55px;
+	}
+	#score-bar {
+		display: none;
+	}
+	#header {
+		position: fixed;
+	}
+}
